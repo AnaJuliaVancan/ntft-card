@@ -4,23 +4,72 @@ body{
 
 .card{
   width: 350px; 
-  height: 600px; 
+  height: 540px; 
   background-color: hsl(216, 50%, 16%); 
   border-radius: 15px; 
   color: white;  
-  margin-left: 800px;
-  margin-top: 80px;
+  margin-left: 40%;
+  margin-top: 10%;
   padding-top: 20px;
 }
 
 .cardimg{
-  border-radius: 10px;  
   width:350px; 
-  height:340px;
+  height:300px;
   text-align: center;
+}
+
+#img1{
+  border-radius: 10px;
 }
 
 .cardtext{
   padding-left: 20px;
   padding-right: 20px;
+}
+
+#title{
+  padding-top: -60px;
+}
+
+#text1{
+  opacity: 0.5;
+}
+
+.cardimg2{
+  display: flex;
+  padding-top: -20px;
+}
+
+#img2{
+   padding-top: 20px;
+}
+
+#text2{
+  color:hsl(178, 100%, 50%);
+  padding-left: 10px;
+}
+
+#img3{
+  padding-top: 20px;
+  padding-left: 120px;
+}
+
+#text3{
+  opacity: 0.5;
+  padding-top: 5px;
+}
+
+.cardimg4{
+  display: flex;
+  border-top: 1px solid white;
+}
+
+#img4{
+  padding-top: 20px;
+}
+
+#text4{
+  padding-left: 10px;
+  padding-top: 10px;
 }
